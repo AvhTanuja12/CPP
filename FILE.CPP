@@ -3,7 +3,7 @@
 #include<fstream.h>
 int main()
 {
-chae sname[20]="SYBBA",line[20];
+char sname[20]="SYBBA",line[20];
 ofstream outfile;
 outfile.open("tanuja.txt");
 outfile<<sname;
