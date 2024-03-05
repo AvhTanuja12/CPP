@@ -4,7 +4,7 @@ int main()
 {
 char sname[20]="SYBBACA";
 ofstream outfile;
-outfile.open("tanuja.bin");
+outfile.open("tanuja.txt");
 outfile.write((char *)& sname,sizeof(sname));
 outfile.close();
 ifstream infile;
